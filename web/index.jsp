@@ -11,7 +11,7 @@
 <head>
   <title>JSP-Hello World</title>
 </head>
-<h1>"Hello World!!"</h1>
+<h1><%="Welcome to my home page"%></h1>
 <body>
 <br/>
 <a href="hello-servlet">Hello servlet </a>
