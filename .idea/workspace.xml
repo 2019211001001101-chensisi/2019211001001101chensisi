@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/MyJsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week2/homework/HelloWorldServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/week2/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week2/homework/HelloWorldServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/week2/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/week2/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="247">
               <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
@@ -42,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/week2/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="266">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -92,6 +87,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,8 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +242,8 @@
       <workItem from="1615598671649" duration="646000" />
       <workItem from="1615614624237" duration="16410000" />
       <workItem from="1615648133298" duration="1319000" />
-      <workItem from="1615686510539" duration="17012000" />
+      <workItem from="1615686510539" duration="17143000" />
+      <workItem from="1615781774749" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -263,16 +259,24 @@
       <option name="project" value="LOCAL" />
       <updated>1615705711456</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW-CE2 Commit">
+      <created>1615706097736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615706097736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40849000" />
+    <option name="totallyTimeSpent" value="42641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28617623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29102668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -282,7 +286,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.29662523" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.29662523" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,12 +294,11 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" visible="true" weight="0.29662523" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" visible="true" weight="0.29662523" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4987874" weight="0.3280142" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32902184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -305,6 +308,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32902184" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/MyJsp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -354,10 +351,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/week2/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="266">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
         </state>
       </provider>
     </entry>
