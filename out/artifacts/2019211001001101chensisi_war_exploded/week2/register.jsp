@@ -10,7 +10,7 @@
 <head>
     <title>Get and Post Demo</title>
 <body>
-<form method="Post" action="">
+<form method="post" action="">
     <br/>
     Username:<input type="text" name="Username" size="20" required><br/>
     password:<input type="password" name="password" size="20" minlength="8" required><br/>
@@ -20,7 +20,7 @@
     <input type="radio" name="sex">Female
     <br/>
     Birthday:
-    <input type="text"  name="birthday" value="${dateTest}"var="dateTest" value="${xxx}" pattern="yyyy-MM-dd HH:mm:ss"  >
+    <input type="text"  name="birthday">
     <br/>
     <input type=submit value="Register"/>
 </form>

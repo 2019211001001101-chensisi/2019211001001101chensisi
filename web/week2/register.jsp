@@ -20,7 +20,7 @@
     <input type="radio" name="sex">Female
     <br/>
     Birthday:
-    <input type="text"  name="birthday"  >
+    <input type="text"  name="birthday">
     <br/>
     <input type=submit value="Register"/>
 </form>
