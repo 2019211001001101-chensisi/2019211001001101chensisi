@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+            <state relative-caret-position="158">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -118,13 +118,6 @@
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
@@ -284,7 +277,7 @@
       <workItem from="1616046137810" duration="293000" />
       <workItem from="1616112170154" duration="1845000" />
       <workItem from="1616212223155" duration="599000" />
-      <workItem from="1616503085463" duration="6450000" />
+      <workItem from="1616503085463" duration="7420000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -328,27 +321,33 @@
       <option name="project" value="LOCAL" />
       <updated>1615784603786</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW-CE3 Commit">
+      <created>1616511742509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616511742510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54172000" />
+    <option name="totallyTimeSpent" value="55142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8906606" visible="true" weight="0.32012933" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83617747" visible="true" weight="0.32012933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.10933941" side_tool="true" visible="true" weight="0.32012933" />
+      <window_info id="Web" order="7" sideWeight="0.16382253" side_tool="true" visible="true" weight="0.32012933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.22024867" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49717057" visible="true" weight="0.47957373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,7 +355,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502021" side_tool="true" weight="0.29662523" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282943" side_tool="true" weight="0.47957373" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49717057" weight="0.3268206" />
@@ -379,7 +378,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="HW-CE2 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-CE2 Commit" />
+    <MESSAGE value="HW-CE3 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-CE3 Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2019211001001101chensisi$Tomcat_7_0_108.ic" NAME="Tomcat 7.0.108 Coverage Results" MODIFIED="1615699142243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -458,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+        <state relative-caret-position="158">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
