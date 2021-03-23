@@ -7,9 +7,28 @@
         <servlet-name>chensisi</servlet-name>
         <servlet-class>com.chensisi.week2.homework.HelloWorldServlet</servlet-class>
     </servlet>
-<servlet-mapping>
+
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.chensisi.week3.homework.LifeCycleServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.chensisi.week3.homework.RegisterServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
     <servlet-name>chensisi</servlet-name>
     <url-pattern>/hello</url-pattern>
-</servlet-mapping>
-
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/Life</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
 </web-app>
