@@ -17,6 +17,49 @@
         <servlet-name>RegisterServlet</servlet-name>
         <servlet-class>com.chensisi.week3.homework.RegisterServlet</servlet-class>
     </servlet>
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:sqlserver://localhost;databaseName=userdb</param-value>
+    </context-param>
+    <context-param>
+         <param-name>username</param-name>
+         <param-value>sa</param-value>
+     </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>111111</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>JDBCDemoServlet</servlet-name>
+        <servlet-class>com.chensisi.week4.homework.JDBCDemoServlet</servlet-class>
+    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week4.homework.ConfigDemoServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>name</param-name>-->
+<!--            <param-value>chensisi</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>studentid</param-name>-->
+<!--            <param-value>2019211001001101</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet> -->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--        <url-pattern>/config</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <servlet-mapping>
+        <servlet-name>JDBCDemoServlet</servlet-name>
+        <url-pattern>/jdbc</url-pattern>
+    </servlet-mapping>
+    
     
     <servlet-mapping>
     <servlet-name>chensisi</servlet-name>
@@ -27,8 +70,8 @@
         <servlet-name>LifeCycleServlet</servlet-name>
         <url-pattern>/Life</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>RegisterServlet</servlet-name>
-        <url-pattern>/Register</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <url-pattern>/Register</url-pattern>-->
+<!--    </servlet-mapping>-->
 </web-app>
