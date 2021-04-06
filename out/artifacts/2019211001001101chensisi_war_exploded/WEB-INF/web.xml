@@ -37,7 +37,11 @@
         <servlet-name>JDBCDemoServlet</servlet-name>
         <servlet-class>com.chensisi.week4.homework.JDBCDemoServlet</servlet-class>
     </servlet>
-<!--    <servlet>-->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.chensisi.week5.homework.LoginServlet</servlet-class>
+    </servlet>
+    <!--    <servlet>-->
 <!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
 <!--        <servlet-class>com.chensisi.week4.homework.ConfigDemoServlet</servlet-class>-->
 <!--        <init-param>-->
@@ -48,12 +52,12 @@
 <!--            <param-name>studentid</param-name>-->
 <!--            <param-value>2019211001001101</param-value>-->
 <!--        </init-param>-->
+<!--            <servlet-mapping>-->
+<!--                <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--                <url-pattern>/config</url-pattern>-->
+<!--            </servlet-mapping>-->
 <!--    </servlet> -->
 
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
-<!--        <url-pattern>/config</url-pattern>-->
-<!--    </servlet-mapping>-->
 
     <servlet-mapping>
         <servlet-name>JDBCDemoServlet</servlet-name>
