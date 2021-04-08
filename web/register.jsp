@@ -11,6 +11,9 @@
     <title>Title</title>
 </head>
 <body>
+<%@include file="header.jsp"%>
+This is my register JSP page. <br/>
+
 <form method="post" action="Register" >
      <br/>
     username:<input type="text" name="username" /><br/>
@@ -19,6 +22,7 @@
     Gender<input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br/>
     Date of Birth:<input type="text"  name="birthDate"><br/>
     <input type=submit value="Register"/>
+    <%@include file="footer.jsp"%>
 </form>
 </body>
 </html>

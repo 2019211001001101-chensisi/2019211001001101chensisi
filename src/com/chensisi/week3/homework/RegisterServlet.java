@@ -54,11 +54,24 @@ public class RegisterServlet extends HttpServlet {
 //        writer.println("<br>gender :"+ gender);
 //        writer.println("<br>birthDate :"+ birthDate);
 //        writer.close();
+        String sql1="insert into Usertable values(?,?,?,?,?)";
+        PreparedStatement pstmt= null;
+        try {
+            pstmt = con.prepareStatement(sql1);
+            pstmt.setString(1,username);
+            pstmt.setString(2,password);
+            pstmt.setString(3,email);
+            pstmt.setString(4,gender);
+            pstmt.setString(5,birthDate);
+            pstmt.executeUpdate();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
         response.setContentType("text/html charset=utf-8");
         PrintWriter out=response.getWriter();
-        String sql1 = "select * from usertable ";
+        String sql = "select * from usertable";
         try {
-            ResultSet re = con.createStatement().executeQuery(sql1);
+            ResultSet re = con.createStatement().executeQuery(sql);
             out.println("<table border='1' align='center'>");
             out.println("<tr>");
             out.println("<td>"+"id"+"</td>");

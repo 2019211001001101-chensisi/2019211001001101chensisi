@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(
-        urlPatterns ="/config",
+        urlPatterns ={"/config"},
         initParams={
                 @WebInitParam(name="name",value="chensisi"),
                 @WebInitParam(name="studentid",value="2019211001001101")
