@@ -13,44 +13,53 @@ import java.sql.*;
 
 public class LoginServlet extends HttpServlet {
     Connection con=null;
-    @Override
+
     public void init() throws ServletException {
-        String driver=getServletConfig().getServletContext().getInitParameter("driver");
-        String url=getServletConfig().getServletContext().getInitParameter("url");
-        String username=getServletConfig().getServletContext().getInitParameter("username");
-        String password=getServletConfig().getServletContext().getInitParameter("password");
-        try {
-            Class.forName(driver);
-            con= DriverManager.getConnection(url,username,password);
-            System.out.println("init()-->"+con);
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-        }
+        super.init();
+//        String driver=getServletConfig().getServletContext().getInitParameter("driver");
+//        String url=getServletConfig().getServletContext().getInitParameter("url");
+//        String username=getServletConfig().getServletContext().getInitParameter("username");
+//        String password=getServletConfig().getServletContext().getInitParameter("password");
+//        try {
+//            Class.forName(driver);
+//            con= DriverManager.getConnection(url,username,password);
+//            System.out.println("init()-->"+con);
+//        } catch (ClassNotFoundException | SQLException e) {
+//            e.printStackTrace();
+//        }
+        con=(Connection)getServletContext().getAttribute("con");
     }
-    @Override
+
             protected void doPost (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-                String Username=request.getParameter("username");
-                String password=request.getParameter("password");
-                String sql="select * from usertable1 where username=? and password=? ";
-//               username=chensisi password=123
-                PreparedStatement pstmt= null;
+                String UserName = request.getParameter("username");
+                String PassWord = request.getParameter("password");
+                // PrintWriter out=response.getWriter();
+
                 try {
-                    pstmt = con.prepareStatement(sql);
-                    pstmt.setString(1,Username);
-                    pstmt.setString(2,password);
-                    ResultSet rs= pstmt.executeQuery();
-                    PrintWriter out=response.getWriter();
+                    String sql1 = "select * from usertable2 WHERE username='"+UserName+"' AND password='"+PassWord+"';";
+                    ResultSet rs =con.createStatement().executeQuery(sql1);
                     if(rs.next()){
-                        out.println("Login Success!!!");
-                        out.println("Welcome,"+Username);
-                    }else out.println("Login Error!!!");
-                } catch (SQLException throwables) {
-                    throwables.printStackTrace();
+//                      out.println("Login Success!!!");
+//                      out.println("Welcome "+UserName+".");
+                        request.setAttribute("id",rs.getString("id"));
+                        request.setAttribute("username",rs.getString("username"));
+                        request.setAttribute("password",rs.getString("password"));
+                        request.setAttribute("email",rs.getString("email"));
+                        request.setAttribute("gender",rs.getString("gender"));
+                        request.setAttribute("birthdate",rs.getString("birthdate"));
+                        request.getRequestDispatcher("userInfo.jsp").forward(request,response);
+                    }
+//                    else out.println("Login Error!!!");
+                    request.setAttribute("message","Username or Password Error!!!");
+                    request.getRequestDispatcher("login.jsp").forward(request,response);
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
     }
 
-    @Override
+
             protected void doGet (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+            doPost(request,response);
             }
 
 }

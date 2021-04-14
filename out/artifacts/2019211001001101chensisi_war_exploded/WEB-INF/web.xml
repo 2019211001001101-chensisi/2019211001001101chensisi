@@ -41,6 +41,18 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.chensisi.week5.homework.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>com.chensisi.week6.homework.SearchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.chensisi.week6.homework.RedirectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JDBCServletContextListener</servlet-name>
+        <servlet-class>com.chensisi.week6.homework.JDBCServletContextListener</servlet-class>
+    </servlet>
     <!--    <servlet>-->
 <!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
 <!--        <servlet-class>com.chensisi.week4.homework.ConfigDemoServlet</servlet-class>-->

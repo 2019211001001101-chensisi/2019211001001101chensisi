@@ -14,7 +14,7 @@
 <%@include file="header.jsp"%>
 This is my register JSP page. <br/>
 
-<form method="post" action="Register" >
+<form method="post" action="register" >
      <br/>
     username:<input type="text" name="username" /><br/>
     password:<input type="password" name="password"/><br/>
