@@ -53,6 +53,14 @@
         <servlet-name>JDBCServletContextListener</servlet-name>
         <servlet-class>com.chensisi.week6.homework.JDBCServletContextListener</servlet-class>
     </servlet>
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+<!--    <servlet>-->
+<!--        <servlet-name>HomeServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.controller.HomeServlet</servlet-class>-->
+<!--    </servlet>-->
+
     <!--    <servlet>-->
 <!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
 <!--        <servlet-class>com.chensisi.week4.homework.ConfigDemoServlet</servlet-class>-->

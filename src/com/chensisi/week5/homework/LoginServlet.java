@@ -1,12 +1,14 @@
 package com.chensisi.week5.homework;
 
+import com.chensisi.dao.UserDao;
+import com.chensisi.model.User;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.*;
 
 @WebServlet(name="LoginServlet",value="/login")
@@ -34,6 +36,20 @@ public class LoginServlet extends HttpServlet {
                 String UserName = request.getParameter("username");
                 String PassWord = request.getParameter("password");
                 // PrintWriter out=response.getWriter();
+                UserDao userDao=new UserDao();
+                try{
+                    User user=userDao.findByUsernamePassword(con,UserName,PassWord);
+                    if(user!=null){
+                        request.setAttribute("user",user);
+                        request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request,response);
+                    }else{
+                        request.setAttribute("message","Username or Password Error!!!");
+                        request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
+                    }
+                } catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
 
                 try {
                     String sql1 = "select * from usertable2 WHERE username='"+UserName+"' AND password='"+PassWord+"';";
@@ -59,7 +75,10 @@ public class LoginServlet extends HttpServlet {
 
 
             protected void doGet (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-            doPost(request,response);
+//            doPost(request,response);
+                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
+
+
             }
 
 }
