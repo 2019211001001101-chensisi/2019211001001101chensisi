@@ -7,34 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/19462.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/LogoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/UpdateUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/LogoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/UpdateUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/controller/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/controller/UpdateUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/updateUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/userInfo.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +48,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="-266">
               <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,8 +135,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-90" />
-    <option name="y" value="48" />
+    <option name="x" value="184" />
     <option name="width" value="1050" />
     <option name="height" value="960" />
   </component>
@@ -416,7 +388,7 @@
       <workItem from="1619589967007" duration="5916000" />
       <workItem from="1619595998134" duration="5892000" />
       <workItem from="1619601996878" duration="3378000" />
-      <workItem from="1619605439019" duration="409000" />
+      <workItem from="1619605439019" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -530,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619105996554</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HW-CE8 Commit">
+      <created>1619605876917</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619605876917</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178191000" />
+    <option name="totallyTimeSpent" value="178882000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -547,6 +526,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5366569" visible="true" weight="0.17784964" />
       <window_info id="Structure" order="1" sideWeight="0.4633431" side_tool="true" weight="0.17542441" />
@@ -558,7 +538,7 @@
       <window_info id="Web" order="7" sideWeight="0.16486487" side_tool="true" weight="0.17299919" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6410671" visible="true" weight="0.12966253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64025867" visible="true" weight="0.4866785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.07815275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +550,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49717057" weight="0.3268206" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49717057" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.3589329" side_tool="true" weight="0.71580815" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="14" sideWeight="0.3597413" side_tool="true" visible="true" weight="0.4866785" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,7 +609,8 @@
     <MESSAGE value="HW-CE5 Commit" />
     <MESSAGE value="HW-CE6 Commit" />
     <MESSAGE value="HW-CE7 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-CE7 Commit" />
+    <MESSAGE value="HW-CE8 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-CE8 Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2019211001001101chensisi$Tomcat_7_0_108.ic" NAME="Tomcat 7.0.108 Coverage Results" MODIFIED="1615699142243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -945,7 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="-266">
           <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
