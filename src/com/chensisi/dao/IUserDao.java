@@ -14,7 +14,6 @@ public interface IUserDao {
 
     public User findById(Connection con, Integer id) throws SQLException;
 
-    abstract User findByUsernamePassword(Connection con, String username, String password) throws SQLException;
     public List<User> findByUsername(Connection con, String username) throws SQLException;
     public List<User> findByPassword(Connection con, String password) throws SQLException;
     public List<User> findByEmail(Connection con, String email) throws SQLException;

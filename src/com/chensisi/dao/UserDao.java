@@ -2,10 +2,8 @@ package com.chensisi.dao;
 
 import com.chensisi.model.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -22,20 +20,37 @@ public class UserDao implements IUserDao {
 
     @Override
     public int updateUser(Connection con, User user) throws SQLException {
-        return 0;
+        String sql = "update usertable2 set username = ?,password = ?, email = ?, gender = ?, birthdate = ? where id = ?;";
+        PreparedStatement st = con.prepareStatement(sql);
+        st.setString(1, user.getUsername());
+        st.setString(2, user.getPassword());
+        st.setString(3, user.getEmail());
+        st.setString(4, user.getGender());
+        st.setString(5, String.valueOf(user.getBirthdate()));
+        st.setString(6, user.getId());
+
+        int i = st.executeUpdate();
+        if (i != 0) {
+            return 1;
+        } else {
+            return 0;
+        }
+
     }
+
 
     @Override
     public User findById(Connection con, Integer id) throws SQLException {
         return null;
     }
 
-    @Override
+
     public  User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
         String sql= "select * from usetable2 where username=? and password=?";
         PreparedStatement st=con.prepareStatement(sql);
         st.setString(1,username);
         st.setString(2,password);
+       // ResultSet rs=st.executeQuery();
         ResultSet rs=st.executeQuery();
         User user=null;
         if(rs.next()){
