@@ -51,7 +51,7 @@ public class RegisterServlet extends HttpServlet {
         try {
             response.setContentType("text/html charset=utf-8");
             Statement createDbStatement = con.createStatement();
-            String sql ="insert into usertable2(id,username,password,email,gender,birthdate) " +
+            String sql ="insert into usertable(id,username,password,email,gender,birthdate) " +
                     "values('"+id+"', '"+username+"','"+ password+"','"+email+"','"+gender+"','"+birthDate+"')";
             createDbStatement.executeUpdate(sql);
             // PrintWriter out=response.getWriter();

@@ -3,14 +3,14 @@ package com.chensisi.model;
 import java.util.Date;
 
 public class User {
-    private String id;
+    private int id;
     private String username;
     private String password;
 
-    public User(){
+    public User(int id, String username, String password, String email, String gender, java.sql.Date birthdate){
 
     }
-    public User(String id, String username, String password, String email, String gender, Date birthdate) {
+    public User(int id, String username, String password, String email, String gender, Date birthdate) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -23,12 +23,16 @@ public class User {
     private String gender;
     private java.util.Date birthdate;
 
+    public User() {
 
-    public String getId() {
+    }
+
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

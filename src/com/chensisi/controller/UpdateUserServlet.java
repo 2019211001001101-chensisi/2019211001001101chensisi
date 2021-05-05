@@ -26,7 +26,7 @@ public class UpdateUserServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Date Birthdate =Date.valueOf(request.getParameter("birthDate"));
-        String id = request.getParameter("id");
+        int id = Integer.parseInt(request.getParameter("id"));
         String username = request.getParameter("Username");
         String password = request.getParameter("password");
         String email = request.getParameter("Email");
