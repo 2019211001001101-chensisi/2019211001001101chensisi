@@ -6,251 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/AdminHomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/UpdateUserServlet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/filter/AuthFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/filter/HelloFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/filter/LoggerFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/sqljdbc42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/shop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/Order-Processing-Services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/email.jpe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/mail_receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/order-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/ordermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/pin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/productmgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/home/usermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/AdminHomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/UpdateUserServlet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/filter/AuthFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/filter/HelloFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/filter/LoggerFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/controller/AdminHomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/filter/HelloFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/filter/LoggerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/sqljdbc42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/Order-Processing-Services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/email.jpe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/mail_receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/order-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/ordermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/pin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/productmgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/home/usermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/price-range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/UpdateUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week3/homework/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week3/homework/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/sqljdbc4-2.0.jar/sqljdbc4-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/UpdateUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week3/homework/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week3/homework/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/controller/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/controller/UpdateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/week3/homework/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/week3/homework/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/sqljdbc4-2.0.jar/sqljdbc4-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,7 +94,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chensisi/week2/homework/HelloWorldServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="323">
               <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -447,29 +203,7 @@
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Tomcat 8.5.64" type="70bed36:NamedLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -651,7 +385,7 @@
       <workItem from="1620223421352" duration="821000" />
       <workItem from="1620275947084" duration="4731000" />
       <workItem from="1620280714561" duration="83000" />
-      <workItem from="1620281172751" duration="5957000" />
+      <workItem from="1620281172751" duration="6228000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -793,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620224203873</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="HW-CE9 Commit">
+      <created>1620287190686</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620287190686</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192170000" />
+    <option name="totallyTimeSpent" value="192441000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -809,19 +550,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8589109" visible="true" weight="0.19805983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85903084" visible="true" weight="0.19805983" />
       <window_info id="Structure" order="1" sideWeight="0.4633431" side_tool="true" weight="0.17542441" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32983023" />
-      <window_info id="Web" order="7" sideWeight="0.14108911" side_tool="true" visible="true" weight="0.19805983" />
+      <window_info id="Web" order="7" sideWeight="0.14096916" side_tool="true" visible="true" weight="0.19805983" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8884398" visible="true" weight="0.28241563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8884398" weight="0.33570158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.07815275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -829,11 +570,11 @@
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49474534" visible="true" weight="0.19360569" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49717057" weight="0.3268206" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49717057" weight="0.22557727" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4906542" weight="0.36412078" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50934577" side_tool="true" weight="0.36417323" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5052546" side_tool="true" visible="true" weight="0.19360569" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -893,7 +634,8 @@
     <MESSAGE value="HW-CE6 Commit" />
     <MESSAGE value="HW-CE7 Commit" />
     <MESSAGE value="HW-CE8 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-CE8 Commit" />
+    <MESSAGE value="HW-CE9 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-CE9 Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2019211001001101chensisi$Tomcat_7_0_108.ic" NAME="Tomcat 7.0.108 Coverage Results" MODIFIED="1615699142243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -1247,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/week2/homework/HelloWorldServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="323">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
