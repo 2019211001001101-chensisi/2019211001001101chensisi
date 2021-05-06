@@ -1,8 +1,8 @@
 package com.chensisi.week4.homework;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern;
 
-import javax.jws.WebService;
+
+//import javax.jws.WebService;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebInitParam;
@@ -18,19 +18,20 @@ import java.io.PrintWriter;
         initParams={
                 @WebInitParam(name="name",value="chensisi"),
                 @WebInitParam(name="studentid",value="2019211001001101")
-        }
+        },loadOnStartup = 1
 )
 public class ConfigDemoServlet extends HttpServlet {
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ServletConfig config = getServletConfig();
-        String name = getServletConfig().getInitParameter("name");
-        String studentid = getServletConfig().getInitParameter("studentid");
+        response.setContentType("text/html;charset=utf-8");
         PrintWriter writer=response.getWriter();
-        writer.println("name: chensisi");
-        writer.println("studentid:2019211001001101");
+        String name=getServletConfig().getInitParameter("name");
+        String StudentID=getServletConfig().getInitParameter("StudentID");
+        writer.println("name:"+name+"</br>");
+        writer.println("studentid:"+StudentID);
     }
 }

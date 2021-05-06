@@ -39,12 +39,11 @@ public class LoginServlet extends HttpServlet {
                 String UserName = request.getParameter("name");
                 String PassWord = request.getParameter("password");
                 PrintWriter out = response.getWriter();
-                UserDao userDao = new UserDao() {
-                };
+                UserDao userDao = new UserDao();
                 try {
                     User user = userDao.findByUsernamePassword(con,UserName,PassWord);
                     if (user != null) {
-                        String rememberMe=request.getParameter("rememberMe");
+                        String rememberMe=request.getParameter("remember");
                         if("1".equals(rememberMe)&&rememberMe!=null){
 
                             Cookie passwordCookie=new Cookie("cPassword", URLEncoder.encode(user.getPassword(),"UTF-8"));

@@ -45,7 +45,7 @@ public class RegisterServlet extends HttpServlet {
 //        writer.println("<br>birthDate :"+ birthDate);
 //        writer.close();
         try {
-            String sql ="userdb insert into usetable(username,password,email,gender,birthdate) values(?,?,?,?,?)";
+            String sql =" insert into usertable(username,password,email,gender,birthdate) values(?,?,?,?,?)";
             PreparedStatement pstmt=con.prepareStatement(sql);
             //pstmt.setInt(1, id);
             pstmt.setString(1, username);

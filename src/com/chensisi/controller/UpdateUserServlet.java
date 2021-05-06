@@ -8,12 +8,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Date;
 
-@WebServlet(name = "UpdateUserServlet",value = "/update")
+@WebServlet(name = "UpdateUserServlet",value = "/updateUser")
 
 public class UpdateUserServlet extends HttpServlet {
     Connection con = null;
@@ -25,21 +26,15 @@ public class UpdateUserServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Date Birthdate =Date.valueOf(request.getParameter("birthDate"));
+        Date birthDate =Date.valueOf(request.getParameter("birthDate"));
         int id = Integer.parseInt(request.getParameter("id"));
-        String username = request.getParameter("Username");
+        String username = request.getParameter("username");
         String password = request.getParameter("password");
-        String email = request.getParameter("Email");
+        String email = request.getParameter("email");
         String gender = request.getParameter("gender");
-        User user=new User(id,username,password,email,gender,Birthdate);
+        User user=new User(id,username,password,email,gender,birthDate);
 
-        UserDao userDao= new UserDao() {
-            @Override
-            public User findById(Connection con, Integer id) throws SQLException {
-                return null;
-            }
-        };
-
+        UserDao userDao= new UserDao();
         try {
             int n= userDao.updateUser(con,user);
             if(n==1) {
@@ -57,8 +52,25 @@ public class UpdateUserServlet extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-       request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request,response);
-    }
+        int id = Integer.parseInt(request.getParameter("id"));
+        UserDao UserDao = new UserDao();
+        try {
+            User u = UserDao.findById(con,id);
+            HttpSession session=request.getSession();
+            session.setAttribute("userInfo", u);
+            request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request, response);
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+
+
+
+
+
+
+
 
     }
+}
 
