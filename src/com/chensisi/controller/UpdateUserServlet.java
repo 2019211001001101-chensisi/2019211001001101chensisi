@@ -33,7 +33,12 @@ public class UpdateUserServlet extends HttpServlet {
         String gender = request.getParameter("gender");
         User user=new User(id,username,password,email,gender,Birthdate);
 
-        UserDao userDao=new UserDao();
+        UserDao userDao= new UserDao() {
+            @Override
+            public User findById(Connection con, Integer id) throws SQLException {
+                return null;
+            }
+        };
 
         try {
             int n= userDao.updateUser(con,user);

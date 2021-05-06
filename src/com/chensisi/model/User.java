@@ -6,8 +6,11 @@ public class User {
     private int id;
     private String username;
     private String password;
+    private String email;
+    private String gender;
+    private Date birthdate;
 
-    public User(int id, String username, String password, String email, String gender, java.sql.Date birthdate){
+    public User(){
 
     }
     public User(int id, String username, String password, String email, String gender, Date birthdate) {
@@ -17,14 +20,6 @@ public class User {
         this.email = email;
         this.gender = gender;
         this.birthdate = birthdate;
-    }
-
-    private String email;
-    private String gender;
-    private java.util.Date birthdate;
-
-    public User() {
-
     }
 
 
@@ -77,13 +72,14 @@ public class User {
     }
     @Override
     public String toString(){
-        return "User{"+
-                "id="+id+
-                ",username='"+username+"\'"+
-                ",password='"+password+"\'"+
-                ",email='"+email+"\'"+
-                ",gender'"+gender+"\'"+
-                ",birthdate="+birthdate+"}";
+        return "User{" +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", gender='" + gender + '\'' +
+                ", birthdate=" + birthdate +
+                '}';
 
     }
 }

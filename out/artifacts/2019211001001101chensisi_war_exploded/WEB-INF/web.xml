@@ -13,10 +13,10 @@
         <servlet-class>com.chensisi.week3.homework.LifeCycleServlet</servlet-class>
     </servlet>
     
-    <servlet>
-        <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>com.chensisi.week3.homework.RegisterServlet</servlet-class>
-    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week3.homework.RegisterServlet</servlet-class>-->
+<!--    </servlet>-->
     <context-param>
         <param-name>driver</param-name>
         <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
@@ -33,26 +33,26 @@
         <param-name>password</param-name>
         <param-value>111111</param-value>
     </context-param>
-    <servlet>
-        <servlet-name>JDBCDemoServlet</servlet-name>
-        <servlet-class>com.chensisi.week4.homework.JDBCDemoServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.chensisi.week5.homework.LoginServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>SearchServlet</servlet-name>
-        <servlet-class>com.chensisi.week6.homework.SearchServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>RedirectServlet</servlet-name>
-        <servlet-class>com.chensisi.week6.homework.RedirectServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>JDBCServletContextListener</servlet-name>
-        <servlet-class>com.chensisi.week6.homework.JDBCServletContextListener</servlet-class>
-    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>JDBCDemoServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week4.homework.JDBCDemoServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet>-->
+<!--        <servlet-name>LoginServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week5.homework.LoginServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet>-->
+<!--        <servlet-name>SearchServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week6.homework.SearchServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet>-->
+<!--        <servlet-name>RedirectServlet</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week6.homework.RedirectServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet>-->
+<!--        <servlet-name>JDBCServletContextListener</servlet-name>-->
+<!--        <servlet-class>com.chensisi.week6.homework.JDBCServletContextListener</servlet-class>-->
+<!--    </servlet>-->
     <welcome-file-list>
         <welcome-file>home</welcome-file>
     </welcome-file-list>
@@ -79,11 +79,11 @@
 <!--    </servlet> -->
 
 
-    <servlet-mapping>
-        <servlet-name>JDBCDemoServlet</servlet-name>
-        <url-pattern>/jdbc</url-pattern>
-    </servlet-mapping>
-    
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>JDBCDemoServlet</servlet-name>-->
+<!--        <url-pattern>/jdbc</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    -->
     
     <servlet-mapping>
     <servlet-name>chensisi</servlet-name>
@@ -98,4 +98,28 @@
 <!--        <servlet-name>RegisterServlet</servlet-name>-->
 <!--        <url-pattern>/Register</url-pattern>-->
 <!--    </servlet-mapping>-->
+    <filter>
+        <filter-name>HelloFilter</filter-name>
+        <filter-class>com.chensisi.filter.HelloFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HelloFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>LoggerFilter</filter-name>
+        <filter-class>com.chensisi.filter.LoggerFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoggerFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>com.chensisi.filter.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
 </web-app>

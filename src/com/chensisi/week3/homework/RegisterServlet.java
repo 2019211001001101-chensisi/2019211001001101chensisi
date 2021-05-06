@@ -1,16 +1,12 @@
 package com.chensisi.week3.homework;
 
-//import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
-//import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-//import java.io.PrintWriter;
 import java.sql.Connection;
-//import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.*;
 
@@ -34,7 +30,7 @@ public class RegisterServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-          String id=request.getParameter("id");
+          //int id= Integer.parseInt(request.getParameter("id"));
           String username=request.getParameter("username");
           String password=request.getParameter("password");
           String email=request.getParameter("email");
@@ -49,11 +45,15 @@ public class RegisterServlet extends HttpServlet {
 //        writer.println("<br>birthDate :"+ birthDate);
 //        writer.close();
         try {
-            response.setContentType("text/html charset=utf-8");
-            Statement createDbStatement = con.createStatement();
-            String sql ="insert into usertable(id,username,password,email,gender,birthdate) " +
-                    "values('"+id+"', '"+username+"','"+ password+"','"+email+"','"+gender+"','"+birthDate+"')";
-            createDbStatement.executeUpdate(sql);
+            String sql ="userdb insert into usetable(username,password,email,gender,birthdate) values(?,?,?,?,?)";
+            PreparedStatement pstmt=con.prepareStatement(sql);
+            //pstmt.setInt(1, id);
+            pstmt.setString(1, username);
+            pstmt.setString(2, password);
+            pstmt.setString(3, email);
+            pstmt.setString(4, gender);
+            pstmt.setString(5, birthDate);
+            pstmt.executeUpdate();
             // PrintWriter out=response.getWriter();
 //            String sql1 = "select * from usertable ";
 //            ResultSet re = createDbStatement.executeQuery(sql1);
@@ -80,10 +80,10 @@ public class RegisterServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        response.sendRedirect("login.jsp");
+        response.sendRedirect("login");
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
     }
 
 

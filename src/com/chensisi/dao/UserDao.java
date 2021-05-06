@@ -2,12 +2,14 @@ package com.chensisi.dao;
 
 import com.chensisi.model.User;
 
-import java.sql.*;
-import java.text.SimpleDateFormat;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
-public class UserDao implements IUserDao {
+public  class UserDao implements IUserDao {
     @Override
     public boolean saveUser(Connection con, User user) throws SQLException {
         return false;
@@ -38,11 +40,34 @@ public class UserDao implements IUserDao {
 
     }
 
-
     @Override
     public User findById(Connection con, Integer id) throws SQLException {
         return null;
     }
+
+    public User findById(Connection con, int id) throws SQLException {
+        return null;
+    }
+
+
+//    @Override
+//    public User findById(Connection con, int id) throws SQLException {
+//        String sql="select * from usetable WHERE id=?";
+//        PreparedStatement st=con.prepareStatement(sql);
+//        st.setInt(1,id);
+//        ResultSet rs=st.executeQuery();
+//        User user=null;
+//        if(rs.next()){
+//            user=new User();
+//            user.setId(rs.getInt("id"));
+//            user.setUsername(rs.getString("username"));
+//            user.setPassword(rs.getString("password"));
+//            user.setEmail(rs.getString("email"));
+//            user.setGender(rs.getString("gender"));
+//            user.setBirthdate(rs.getDate("birthdate"));
+//        }
+//        return user;
+//    }
 
 
     public  User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
@@ -50,8 +75,7 @@ public class UserDao implements IUserDao {
         PreparedStatement st=con.prepareStatement(sql);
         st.setString(1,username);
         st.setString(2,password);
-       // ResultSet rs=st.executeQuery();
-        ResultSet rs=st.executeQuery();
+       ResultSet rs=st.executeQuery();
         User user=null;
         if(rs.next()){
             user=new User();
