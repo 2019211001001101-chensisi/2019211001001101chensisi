@@ -13,16 +13,23 @@
 <body>
 <%@include file="header.jsp"%>
 <h1>User Info</h1>
-<%
-    User u=(User) session.getAttribute("user");
+<%User r=null;
+    if(session.getAttribute("userInfo")!=null) {
+        r= (User) session.getAttribute("userInfo");
+
+    }
+    if(session.getAttribute("userInfo")==null&&session.getAttribute("user")!=null) {
+        r = (User) session.getAttribute("user");
+
+    }
 %>
 <table>
     <tr>
-        <td>Username:</td><td><%=u.getUsername()%></td>
-        <td>Password:</td><td><%=u.getPassword()%></td>
-        <td>Email:</td><td><%=u.getEmail()%></td>
-        <td>Gender:</td><td><%=u.getGender()%></td>
-        <td>Birth Date:</td><td><%=u.getBirthdate()%></td>
+        <td>Username:</td><td><%=r.getUsername()%></td>
+        <td>Password:</td><td><%=r.getPassword()%></td>
+        <td>Email:</td><td><%=r.getEmail()%></td>
+        <td>Gender:</td><td><%=r.getGender()%></td>
+        <td>Birth Date:</td><td><%=r.getBirthdate()%></td>
     </tr>
     <a href="updateUser">Update User</a> </tr>
 </table>

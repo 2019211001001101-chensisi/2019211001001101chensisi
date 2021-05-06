@@ -35,7 +35,7 @@ public class RegisterServlet extends HttpServlet {
           String password=request.getParameter("password");
           String email=request.getParameter("email");
           String gender=request.getParameter("gender");
-          String birthDate=request.getParameter("birthDate");
+          String birthdate=request.getParameter("birthdate");
 //
 //        PrintWriter writer=response.getWriter();
 //        writer.println("<br>username :"+ username);
@@ -52,7 +52,7 @@ public class RegisterServlet extends HttpServlet {
             pstmt.setString(2, password);
             pstmt.setString(3, email);
             pstmt.setString(4, gender);
-            pstmt.setString(5, birthDate);
+            pstmt.setDate(5, Date.valueOf(birthdate));
             pstmt.executeUpdate();
             // PrintWriter out=response.getWriter();
 //            String sql1 = "select * from usertable ";

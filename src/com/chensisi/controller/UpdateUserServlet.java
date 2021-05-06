@@ -26,7 +26,7 @@ public class UpdateUserServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Date birthDate =Date.valueOf(request.getParameter("birthDate"));
+        Date birthDate =Date.valueOf(request.getParameter("birthdate"));
         int id = Integer.parseInt(request.getParameter("id"));
         String username = request.getParameter("username");
         String password = request.getParameter("password");
@@ -38,7 +38,8 @@ public class UpdateUserServlet extends HttpServlet {
         try {
             int n= userDao.updateUser(con,user);
             if(n==1) {
-
+                HttpSession session=request.getSession();
+                session.setAttribute("userInfo", user);
                 request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request, response);
             }else {
                 System.out.println("update error");
@@ -50,14 +51,13 @@ public class UpdateUserServlet extends HttpServlet {
 
     }
 
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         UserDao UserDao = new UserDao();
         try {
-            User u = UserDao.findById(con,id);
+            User r = UserDao.findById(con,id);
             HttpSession session=request.getSession();
-            session.setAttribute("userInfo", u);
+            session.setAttribute("userInfo", r);
             request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
