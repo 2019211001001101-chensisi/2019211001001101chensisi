@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
                 response.setContentType("text/html;charset=utf-8");
                 String UserName = request.getParameter("name");
                 String PassWord = request.getParameter("password");
-                PrintWriter out = response.getWriter();
+                PrintWriter writer = response.getWriter();
                 UserDao userDao = new UserDao();
                 try {
                     User user = userDao.findByUsernamePassword(con,UserName,PassWord);
@@ -47,13 +47,13 @@ public class LoginServlet extends HttpServlet {
                         if("1".equals(rememberMe)&&rememberMe!=null){
 
                             Cookie passwordCookie=new Cookie("cPassword", URLEncoder.encode(user.getPassword(),"UTF-8"));
-                            passwordCookie.setMaxAge(10*60);
+                            passwordCookie.setMaxAge(30*60);
                             response.addCookie(passwordCookie);
                             Cookie rememberMeCookie=new Cookie("cRememberMe", URLEncoder.encode(rememberMe,"UTF-8"));
-                            rememberMeCookie.setMaxAge(10*60);
+                            rememberMeCookie.setMaxAge(30*60);
                             response.addCookie(rememberMeCookie);
                             Cookie usernameCookie=new Cookie("cUsername", URLEncoder.encode(user.getUsername(),"UTF-8"));
-                            usernameCookie.setMaxAge(10*60);
+                            usernameCookie.setMaxAge(30*60);
                             response.addCookie(usernameCookie);
                         }
                         HttpSession session=request.getSession();

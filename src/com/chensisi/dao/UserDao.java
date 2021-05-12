@@ -41,7 +41,7 @@ public  class UserDao implements IUserDao {
     }
 
     @Override
-    public User findById(Connection con, Integer id) throws SQLException {
+    public User findById(Connection con, int id) throws SQLException {
         String sql="select * from usertable WHERE id=?";
         PreparedStatement st=con.prepareStatement(sql);
         st.setInt(1,id);
@@ -60,6 +60,7 @@ public  class UserDao implements IUserDao {
     }
 
 
+    @Override
     public  User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
         String sql= "select * from usertable where username=? and password=?";
         PreparedStatement st=con.prepareStatement(sql);

@@ -30,8 +30,8 @@ public class ConfigDemoServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         PrintWriter writer=response.getWriter();
         String name=getServletConfig().getInitParameter("name");
-        String StudentID=getServletConfig().getInitParameter("StudentID");
+        String studentid=getServletConfig().getInitParameter("studentid");
         writer.println("name:"+name+"</br>");
-        writer.println("studentid:"+StudentID);
+        writer.println("studentid:"+studentid);
     }
 }

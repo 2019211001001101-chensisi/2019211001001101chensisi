@@ -25,6 +25,9 @@
     Gender<input type="radio" name="gender" value="male"<%="male".equals(u.getGender())?"checked":""%>>Male
     <input type="radio" name="gender" value="female"  <%="female".equals(u.getGender())?"checked":""%>>Female<br/>
     Date of Birth:<input type="text"  name="birthDate",value="<%=u.getBirthdate()%>" /><br/>
-    <input type=submit value="Save Changes"/>
+    <input type="submit" value="Register"/>
 </form>
+<%
+    session.setAttribute("userInfo",u);
+%>
 <%@include file="footer.jsp"%>

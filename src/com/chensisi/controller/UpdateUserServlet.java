@@ -26,13 +26,13 @@ public class UpdateUserServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Date birthDate =Date.valueOf(request.getParameter("birthdate"));
+        Date birthdate =Date.valueOf(request.getParameter("birthdate"));
         int id = Integer.parseInt(request.getParameter("id"));
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         String email = request.getParameter("email");
         String gender = request.getParameter("gender");
-        User user=new User(id,username,password,email,gender,birthDate);
+        User user=new User(id,username,password,email,gender,birthdate);
 
         UserDao userDao= new UserDao();
         try {

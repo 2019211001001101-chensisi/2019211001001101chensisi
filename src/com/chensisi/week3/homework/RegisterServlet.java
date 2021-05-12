@@ -6,11 +6,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.sql.*;
 
-@WebServlet(name = "RegisterServlet", value = "/register")
+@WebServlet(urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
 
     Connection con=null;
@@ -45,6 +43,7 @@ public class RegisterServlet extends HttpServlet {
 //        writer.println("<br>birthDate :"+ birthDate);
 //        writer.close();
         try {
+            response.setContentType("text/html charset=utf-8");
             String sql =" insert into usertable(username,password,email,gender,birthdate) values(?,?,?,?,?)";
             PreparedStatement pstmt=con.prepareStatement(sql);
             //pstmt.setInt(1, id);
