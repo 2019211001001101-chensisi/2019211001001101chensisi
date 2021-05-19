@@ -11,8 +11,9 @@
 <h1> User Update</h1>
 <%
     User u=null;
-    if(session.getAttribute("user")!=null) {
-        u = (User) session.getAttribute("user");
+    if(session.getAttribute("userInfo")!=null) {
+        u = (User) session.getAttribute("userInfo");
+        pageContext.setAttribute("userInfo",u);
     }
 %>
 
