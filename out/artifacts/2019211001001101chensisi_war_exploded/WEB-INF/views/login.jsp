@@ -1,5 +1,5 @@
 <%@ page import="java.net.URLDecoder" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=GBK" language="java" %>
 <%@include file="header.jsp"%>
 <section id="form"><!--form-->
 		<div class="container">
@@ -12,22 +12,25 @@
     out.println("<h2>"+request.getAttribute("message")+"</h2>");
 }%>
                         <%
-                            Cookie allCookies[]=request.getCookies();
-                            String username="";String password="";String rememberMe="";
-                            if(allCookies!=null){
-                                for(Cookie c:allCookies){
-                                    if("cUsername".equals(URLDecoder.decode(c.getName(),"UTF-8"))){
-                                        username= URLDecoder.decode(c.getValue(),"utf-8");
+                            Cookie[] cookies=request.getCookies();
+                            String username="";
+                            String password="";
+                            String rememberMe="";
+                            if (cookies!=null){
+                                for (Cookie cookie:cookies){
+                                    if (cookie.getName().equals("cUsername")){
+                                        username=cookie.getValue();
                                     }
-                                    if("cPassword".equals(URLDecoder.decode(c.getName(),"UTF-8"))){
-                                        password=URLDecoder.decode(c.getValue(),"utf-8");
+                                    if (cookie.getName().equals("cPassword")){
+                                        password=cookie.getValue();
                                     }
-                                    if("cRememberMe".equals(URLDecoder.decode(c.getName(),"UTF-8"))){
-                                        rememberMe=URLDecoder.decode(c.getValue(),"utf-8");
+                                    if (cookie.getName().equals("cRememberMe")){
+                                        rememberMe=cookie.getValue();
                                     }
                                 }
                             }
-%>
+                            //update 5 user basepath
+                        %>
 <%--        <%--%>
 <%--            basePath="WEB-INF/views";--%>
 <%--        %>--%>

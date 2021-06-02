@@ -9,26 +9,26 @@
     if(!(request.getAttribute("message")==null)){
     out.println("<h3>"+request.getAttribute("message")+"</h3>");
 }%>
-<%
-    Cookie[] cookies=request.getCookies();
-    String username="";
-    String password="";
-    String rememberMe="";
-    if (cookies!=null){
-        for (Cookie cookie:cookies){
-            if (cookie.getName().equals("cUsername")){
-                username=cookie.getValue();
-            }
-            if (cookie.getName().equals("cPassword")){
-                password=cookie.getValue();
-            }
-            if (cookie.getName().equals("cRememberMe")){
-                rememberMe=cookie.getValue();
-            }
-        }
-    }
-    //update 5 user basepath
-%>
+                        <%
+                            Cookie[] cookies=request.getCookies();
+                            String username="";
+                            String password="";
+                            String rememberMe="";
+                            if (cookies!=null){
+                                for (Cookie cookie:cookies){
+                                    if (cookie.getName().equals("cUsername")){
+                                        username=cookie.getValue();
+                                    }
+                                    if (cookie.getName().equals("cPassword")){
+                                        password=cookie.getValue();
+                                    }
+                                    if (cookie.getName().equals("cRememberMe")){
+                                        rememberMe=cookie.getValue();
+                                    }
+                                }
+                            }
+                            //update 5 user basepath
+                        %>
 <form method="post" action="<%=basePath+"login"%>">
     <input type="text" name="username" placeholder="Username" value="<%=username%>"><br>
    <input type="password" name="password" placeholder="password" value="<%=password%>">

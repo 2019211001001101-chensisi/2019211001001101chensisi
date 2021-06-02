@@ -39,24 +39,25 @@ public class LoginServlet extends HttpServlet {
                 String UserName = request.getParameter("name");
                 String PassWord = request.getParameter("password");
                 PrintWriter out = response.getWriter();
-                UserDao userDao = new UserDao();
+                UserDao userDao=new UserDao();
                 try {
-                    User user = userDao.findByUsernamePassword(con,UserName,PassWord);
-                    if (user != null) {
-                        String rememberMe=request.getParameter("remember");
-                        if("1".equals(rememberMe)&&rememberMe!=null){
+                    User user = userDao.findByUsernamePassword(con,UserName, PassWord);
+                    if(user!=null){
 
-                            Cookie passwordCookie=new Cookie("cPassword", URLEncoder.encode(user.getPassword(),"UTF-8"));
-                            passwordCookie.setMaxAge(30*60);
-                            response.addCookie(passwordCookie);
-                            Cookie rememberMeCookie=new Cookie("cRememberMe", URLEncoder.encode(rememberMe,"UTF-8"));
-                            rememberMeCookie.setMaxAge(30*60);
-                            response.addCookie(rememberMeCookie);
-                            Cookie usernameCookie=new Cookie("cUsername", URLEncoder.encode(user.getUsername(),"UTF-8"));
-                            usernameCookie.setMaxAge(30*60);
+                        String rememberMe=request.getParameter("rememberMe");
+                        if(rememberMe!=null && rememberMe.equals("1")){
+                            Cookie usernameCookie=new Cookie("cUsername",user.getUsername());
+                            Cookie passwordCookie=new Cookie("cPassword",user.getPassword());
+                            Cookie rememberMeCookie=new Cookie("cRememberMe",rememberMe);
+
+                            usernameCookie.setMaxAge(5);
+                            passwordCookie.setMaxAge(5);
+                            rememberMeCookie.setMaxAge(5);
                             response.addCookie(usernameCookie);
+                            response.addCookie(passwordCookie);
+                            response.addCookie(rememberMeCookie);
                         }
-                        HttpSession session=request.getSession();
+                        HttpSession session =  request.getSession();
                         System.out.println("session id-->"+session.getId());
                         session.setMaxInactiveInterval(10);
                         session.setAttribute("user", user);
