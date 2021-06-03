@@ -1,5 +1,5 @@
 <%@ page import="java.net.URLDecoder" %>
-<%@ page contentType="text/html;charset=GBK" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <section id="form"><!--form-->
 		<div class="container">

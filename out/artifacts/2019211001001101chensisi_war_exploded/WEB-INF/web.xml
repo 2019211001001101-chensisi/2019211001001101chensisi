@@ -23,7 +23,8 @@
     </context-param>
     <context-param>
         <param-name>url</param-name>
-        <param-value>jdbc:sqlserver://localhost;databaseName=userdb</param-value>
+        <param-value>jdbc:sqlserver://localhost;databaseName=userdb;useUnicode=true&amp;characterEncoding=UTF-8
+        </param-value>
     </context-param>
     <context-param>
          <param-name>username</param-name>
