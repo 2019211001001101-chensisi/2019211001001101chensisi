@@ -7,22 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/controller/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/lab1/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/lab1/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/model/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/accountDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/updateUserView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/lab1/assignment1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/lab1/assignment2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/lab1/assignment2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/lab1/assignment2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/lab1/assignment2/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/orderDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/controller/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/lab1/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/lab1/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/model/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/controller/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/dao/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/accountDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/updateUserView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab1/assignment1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab1/assignment2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab1/assignment2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab1/assignment2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab1/assignment2/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orderDetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019211001001101chensisi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001001101chensisi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/classes/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001101chensisi/com/chensisi/week5/homework/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +71,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/web/lab1/assignment2/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="70">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -80,17 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/chensisi/week4/homework/JDBCDemoServlet.java" />
-        <option value="$PROJECT_DIR$/web/MyJsp.Jsp.jsp" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/week6/homework/RedirectServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/week6/homework/JDBCServletContextListener.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/week3/homework/LifeCycleServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/controller/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/filter/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/filter/HelloFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/filter/LoggerFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/model/User.java" />
         <option value="$PROJECT_DIR$/src/com/chensisi/controller/AdminHomeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/chensisi/controller/UpdateUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java" />
@@ -131,6 +148,17 @@
         <option value="$PROJECT_DIR$/src/com/chensisi/week5/homework/LoginServlet.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/accountDetails.jsp" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/model/Payment.java" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/dao/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/controller/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/order.jsp" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/lab1/Dog.java" />
+        <option value="$PROJECT_DIR$/web/lab1/assignment1.jsp" />
+        <option value="$PROJECT_DIR$/web/lab1/assignment2/login.jsp" />
+        <option value="$PROJECT_DIR$/web/lab1/assignment2/validate.jsp" />
+        <option value="$PROJECT_DIR$/web/lab1/assignment2/welcome.jsp" />
       </list>
     </option>
   </component>
@@ -153,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,12 +205,25 @@
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
@@ -202,6 +242,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,10 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\web\images\cart" />
-      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\web\WEB-INF\views" />
-      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\src\com\chensisi\dao" />
       <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\web" />
+      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\src\com\chensisi" />
+      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\web\WEB-INF\views\admin" />
+      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\web\WEB-INF\views" />
+      <recent name="C:\Users\19462\IdeaProjects\2019211001001101chensisi\src\com\chensisi\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,7 +442,8 @@
       <workItem from="1622610580882" duration="5998000" />
       <workItem from="1622623346316" duration="786000" />
       <workItem from="1622624158774" duration="3787000" />
-      <workItem from="1622732959118" duration="293000" />
+      <workItem from="1622732959118" duration="4258000" />
+      <workItem from="1622764575833" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -633,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1622616609339</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="HW-CE13 Commit">
+      <created>1622733267848</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622733267848</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263806000" />
+    <option name="totallyTimeSpent" value="269160000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -651,27 +701,27 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78397214" visible="true" weight="0.20129345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77873564" visible="true" weight="0.20452708" />
       <window_info id="Structure" order="1" sideWeight="0.4633431" side_tool="true" weight="0.17542441" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32983023" />
-      <window_info id="Web" order="7" sideWeight="0.21328671" side_tool="true" weight="0.19805983" />
+      <window_info id="Web" order="7" sideWeight="0.22126436" side_tool="true" visible="true" weight="0.20452708" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8132579" weight="0.3534636" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8132579" visible="true" weight="0.38188276" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.88682294" weight="0.4920071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49474534" weight="0.29662523" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4987874" weight="0.3285968" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4987874" weight="0.053285968" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49393696" weight="0.19360569" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4219887" weight="0.23268206" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4219887" weight="0.053285968" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4882781" weight="0.26110125" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.11317704" side_tool="true" weight="0.4920071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -724,6 +774,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="HW-CE2 Commit" />
@@ -743,151 +833,6 @@
     <SUITE FILE_PATH="coverage/2019211001001101chensisi$Tomcat_7_0_108.ic" NAME="Tomcat 7.0.108 Coverage Results" MODIFIED="1615699142243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/HomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/logoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/ProductDetailsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/ProductListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/ShopServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/UpdateUserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/UserListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/IProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/filter/HelloFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/filter/LoggerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1134,13 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1162,10 +1100,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/orderDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="513">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/dao/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/accountDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab1/Dog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab1/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab1/assignment1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#1764#1772#0#JAVA" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab1/assignment2/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab1/assignment2/validate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab1/assignment2/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
