@@ -14,7 +14,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Date;
 
-@WebServlet(name = "UpdateUserServlet",value = "/updateUser")
+@WebServlet(name = "updateUserServlet",value = "/updateUser")
 
 public class UpdateUserServlet extends HttpServlet {
     Connection con = null;
@@ -58,7 +58,7 @@ public class UpdateUserServlet extends HttpServlet {
             User r = UserDao.findById(con,id);
             HttpSession session=request.getSession();
             session.setAttribute("userInfo", r);
-            request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request, response);
+            request.getRequestDispatcher("accountDetails").forward(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
 

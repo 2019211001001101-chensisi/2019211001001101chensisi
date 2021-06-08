@@ -18,7 +18,7 @@
 							<li>Password :<span><%=u.getPassword()%></span></li>
 							<li>Email :<span><%=u.getEmail()%></span></li>
 							<li>Gender :<span><%=u.getGender()%></span></li>
-							<li>Birthdate :<span><%=u.getBirthDate()%></span></li>
+							<li>Birthdate :<span><%=u.getBirthdate()%></span></li>
 						</ul>
    						<a class="btn btn-default update" href="updateUser?id=<%=u.getId()%>">Update</a>
 					<%}%>
@@ -60,28 +60,29 @@
 					</c:when>
 					<c:otherwise>
 					<!-- loop_start -->
-					
-						<tr>
-						<td>OID:order Id</td>
-						<td>order Date</td>
-						<td><p>first Name last Name</p>
-						<p> address1</p>
-						<p>address2</p>
-						<p>city,state,country-postalCode</p>
-						<p>phone</p>
-						</td>
-						<td class="cart_total">
-						<%
-							com.dabing.model.Order o=(com.dabing.model.Order)pageContext.findAttribute("o");
-							int n=o.getPaymentId();
-							java.sql.Connection con=(java.sql.Connection)application.getAttribute("con");
-							String paymentType=com.dabing.model.Payment.findByPaymentId(con,n);
-							 %>
-								<p class="cart_total_price"><%=paymentType %></p>
-							</td>
-						<td><button class="btn btn-default update" id="${o.orderId }">Details</button></td>
-						
+						<c:forEach var="o" items="${orderList}">
+							<tr>
+								<td>OID:${o.orderId}</td>
+								<td>${o.orderDate}</td>
+								<td><p>${o.firstName} ${o.lastName}</p>
+									<p> ${o.address1}</p>
+									<p>${o.address2}</p>
+									<p>${o.city},${o.state},${o.country}-${o.postalCode}</p>
+									<p>${o.phone}</p>
+								</td>
+								<td class="cart_total">
+									<%
+										com.chensisi.model.Order o=(com.chensisi.model.Order)pageContext.findAttribute("o");
+										int n=o.getPaymentId();
+										java.sql.Connection con=(java.sql.Connection)application.getAttribute("con");
+										String paymentType=com.chensisi.model.Payment.findByPaymentId(con,n);
+									%>
+									<p class="cart_total_price"><%=paymentType %></p>
+								</td>
+								<td><button class="btn btn-default update" id="${o.orderId}">Details</button></td>
+
 							</tr>
+						</c:forEach>
 								<!-- loop_end -->
 							</c:otherwise></c:choose>
 						

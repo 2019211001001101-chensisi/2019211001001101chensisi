@@ -57,7 +57,7 @@
     List<Person> personList=new ArrayList<Person>();
     personList.add(new Person("Tom",new Dog("Tommy")));
     personList.add(new Person("Sam",new Dog("Sammy")));
-    personList.add(new Person("Bob",new Dog("Bobby")));
+    personList.add(new Person("B",new Dog("B")));
 // todo 6 : add a new person into PersonList - person name and dog name
     request.setAttribute("AllPerson",personList);
 %>
