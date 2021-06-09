@@ -36,12 +36,15 @@ public class LoginServlet extends HttpServlet {
             protected void doPost (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                 request.setCharacterEncoding("utf-8");
                 response.setContentType("text/html;charset=utf-8");
-                String UserName = request.getParameter("name");
+                String UserName = request.getParameter("username");
                 String PassWord = request.getParameter("password");
+                System.out.println(UserName);
+                System.out.println(PassWord);
                 PrintWriter out = response.getWriter();
                 UserDao userDao=new UserDao();
                 try {
                     User user = userDao.findByUsernamePassword(con,UserName, PassWord);
+                    System.out.println(user);
                     if(user!=null){
 
                         String rememberMe=request.getParameter("rememberMe");

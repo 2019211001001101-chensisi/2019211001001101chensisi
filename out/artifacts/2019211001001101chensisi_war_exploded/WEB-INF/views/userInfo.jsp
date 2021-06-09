@@ -26,11 +26,11 @@
 %>
 <table>
     <tr>
-        <td>Username:</td><td><%=u.getUsername()%></td>
-        <td>Password:</td><td><%=u.getPassword()%></td>
-        <td>Email:</td><td><%=u.getEmail()%></td>
-        <td>Gender:</td><td><%=u.getGender()%></td>
-        <td>Birth Date:</td><td><%=u.getBirthdate()%></td>
+        <td>Username:</td><td><%=u.getUsername()%></td><tr/>
+        <td>Password:</td><td><%=u.getPassword()%></td><tr/>
+        <td>Email:</td><td><%=u.getEmail()%></td><tr/>
+        <td>Gender:</td><td><%=u.getGender()%></td><tr/>
+        <td>Birth Date:</td><td><%=u.getBirthdate()%></td><tr/>
     </tr>
     <a href="updateUser">Update User</a> </tr>
 </table>
