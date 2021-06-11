@@ -1,4 +1,4 @@
-<%@ page import="com.dabing.model.User" %>
+<%@ page import="com.chensisi.model.User" %>
 <%@ page import="java.util.List" %>
  
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
 						<h2>Update User Info</h2>
 <% if(!(request.getAttribute("user")==null)){
     
-   com.dabing.model.User u = (com.dabing.model.User)request.getAttribute("user");
+   com.chensisi.model.User u = (com.chensisi.model.User)request.getAttribute("user");
 %>
 <%if(!(request.getAttribute("message")==null)){
     out.println("<h3>"+request.getAttribute("message")+"</h3>");
@@ -24,7 +24,7 @@
  	 &nbsp;<input type="radio"  style="width: 15px; height: 15px; display:inline;" name="gender" value="male" <%="male".equals(u.getGender())? "checked":""%> />&nbsp;Male&nbsp;
  	<input type="radio" style="width: 15px; height: 15px;   display: inline;" name="gender" value="female" <%="female".equals(u.getGender())? "checked":""%>/>&nbsp;Female
  	<br/><br/>
-   <label>Date of Birth : </label><input type="text" name="birthdate" placeholder="Date of Birth (yyyy-mm-dd)" value="<%=u.getBirthDate()%>" />
+   <label>Date of Birth : </label><input type="text" name="birthdate" placeholder="Date of Birth (yyyy-mm-dd)" value="<%=u.getBirthdate()%>" />
    <input type="hidden" name="id" value="<%=u.getId()%>">
     <button type="submit" class="btn btn-default">Save Changes</button>
     <%}%>

@@ -123,4 +123,20 @@
         <filter-name>AuthFilter</filter-name>
         <url-pattern>/hello</url-pattern>
     </filter-mapping>
+    <filter>
+        <filter-name>ChenSiSiFilter</filter-name>
+        <filter-class>com.chensisi.lab2.ChenSiSiFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ChenSiSiFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>com.chensisi.lab2.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
 </web-app>
