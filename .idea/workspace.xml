@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90d97ba-b104-463c-8d17-a70e009bd640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab2/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab2/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab2/chensisiFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/validate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chensisi/lab3/CalServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lab3/cal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/updateUserView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/views/updateUserView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/2019211001001101chensisi_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,51 +30,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
+        <entry file="file://$PROJECT_DIR$/web/lab2/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="152">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab3/HitCountServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="137" column="20" lean-forward="true" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab2/ChenSiSiFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="95">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab2/LoginFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab3/CalServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="1243">
+              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
+        <entry file="file://$PROJECT_DIR$/web/lab3/cal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -92,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -107,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/chensisi/model/Category.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/com/chensisi/controller/AddProductServlet.java" />
         <option value="$PROJECT_DIR$/src/com/chensisi/controller/ProductListServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/productList.jsp" />
         <option value="$PROJECT_DIR$/src/com/chensisi/controller/GetImgServlet.java" />
@@ -158,6 +146,9 @@
         <option value="$PROJECT_DIR$/src/com/chensisi/lab2/LoginFilter.java" />
         <option value="$PROJECT_DIR$/web/lab2/validate.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/lab3/HitCountServletServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/chensisi/lab3/CalServlet.java" />
+        <option value="$PROJECT_DIR$/web/lab3/cal.jsp" />
       </list>
     </option>
   </component>
@@ -180,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,49 +181,20 @@
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="lab2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="lab2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019211001001101chensisi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019211001001101chensisi" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,7 +406,9 @@
       <workItem from="1623206148268" duration="2286000" />
       <workItem from="1623211685196" duration="229000" />
       <workItem from="1623368985181" duration="3769000" />
-      <workItem from="1623372818240" duration="510000" />
+      <workItem from="1623372818240" duration="1097000" />
+      <workItem from="1623856592793" duration="72000" />
+      <workItem from="1623975869938" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1615361357311</created>
@@ -742,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623211705205</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="lab2">
+      <created>1623373452555</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623373452555</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287938000" />
+    <option name="totallyTimeSpent" value="290186000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -759,19 +728,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8655462" visible="true" weight="0.23443815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8630394" visible="true" weight="0.24252222" />
       <window_info id="Structure" order="1" sideWeight="0.4738806" side_tool="true" weight="0.2174616" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.4738806" side_tool="true" weight="0.2174616" />
-      <window_info id="Web" order="7" sideWeight="0.13445379" side_tool="true" weight="0.23039612" />
+      <window_info id="Web" order="7" sideWeight="0.1369606" side_tool="true" visible="true" weight="0.24252222" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8666128" visible="true" weight="0.40674955" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59337103" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8795473" weight="0.5452931" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,7 +751,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.41956347" weight="0.45115453" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4882781" weight="0.26110125" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.13338722" side_tool="true" weight="0.19005328" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.40662894" side_tool="true" weight="0.40674955" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -889,38 +857,13 @@
     <MESSAGE value="HW-CE13 Commit" />
     <MESSAGE value="lab1" />
     <MESSAGE value="HW-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-14" />
+    <MESSAGE value="lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2019211001001101chensisi$Tomcat_7_0_108.ic" NAME="Tomcat 7.0.108 Coverage Results" MODIFIED="1615699142243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chensisi/controller/OrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1218,9 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lab2/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/lab2/img.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1238,6 +1178,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2603">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab2/ChenSiSiFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1245,35 +1199,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="137" column="20" lean-forward="true" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab2/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="475">
           <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab3/HitCountServletServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab2/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab3/HitCountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab3/cal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chensisi/lab3/CalServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1243">
+          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
